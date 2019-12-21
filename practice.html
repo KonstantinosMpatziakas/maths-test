@@ -1,0 +1,37 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="code.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="wrapper">
+        <div class="vertical-center">
+            <h1>WELCOME TO MATHS TEST</h1>
+        </div>
+        <div class="test">
+            <h1>Please choose yout test</h1>
+            <select id="sel">
+                <option value="" selected hidden>Choose here</option>
+                <option>multi</option>
+                <option>add</option>
+                <option>substraction</option>
+                <option>divide</option>
+            </select>
+
+            <div id="main">
+                <h3 id="yourAnswer">Your answer</h3>
+                <label id="num1"></label>
+                <label id="praxi"></label>
+                <label id="num2"></label>
+                <label id="ison">=</label>
+                <input type="text" id="answer" value="">
+                <input type="button" class="btn btn-primary" id="check" value="check">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
